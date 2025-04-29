@@ -1,5 +1,5 @@
 [phases.setup]
 nixPkgs = ["python310"]
 
-[start]
+[phases.start]
 cmd = ["python", "forecast_trends.py"]
